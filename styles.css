@@ -1,0 +1,42 @@
+body {
+    color: rgb(13, 0, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.maindiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: black;
+    width: 600px;
+    height: 600px;
+    border-radius: 150px;
+}
+
+.maindiv-h1 {
+    color: grey;
+    font-size: 64px;
+}
+
+.maindiv-clock {
+    font-size: 128px;
+}
+
+.maindiv-date {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.maindiv-date-p{
+    font-size: 32px;
+    color: grey;
+}
+
+.maindiv-date-number{
+    font-size: 32px;
+}
